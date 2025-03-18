@@ -28,7 +28,7 @@ function FilterBar() {
 
   return (
     <LocalizationProvider dateAdapter={AdapterDayjs}>
-      <div className="flex flex-wrap gap-4 items-center mb-6">
+      <div className="flex flex-wrap gap-6 items-center mb-6">
         <div className="flex items-center">
           <span className="mr-2 text-gray-700">Start Date:</span>
           <DatePicker
@@ -39,7 +39,7 @@ function FilterBar() {
               textField: {
                 size: "small",
                 placeholder: "dd/mm/yyyy",
-                sx: { width: "140px" },
+                sx: { width: "160px" },
               },
             }}
           />
@@ -55,7 +55,7 @@ function FilterBar() {
               textField: {
                 size: "small",
                 placeholder: "dd/mm/yyyy",
-                sx: { width: "140px" },
+                sx: { width: "160px" },
               },
             }}
           />
