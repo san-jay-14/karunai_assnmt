@@ -8,6 +8,7 @@ function App() {
   const donations = [
     {
       id: 1,
+      institute_name: "Institute 1",
       slotDate: "12/09/2024",
       bookedDate: "12/09/2024",
       status: "Pending",
@@ -17,6 +18,7 @@ function App() {
     },
     {
       id: 2,
+      institute_name: "Institute 2",
       slotDate: "12/09/2024",
       bookedDate: "12/09/2024",
       status: "Pending",
@@ -26,6 +28,7 @@ function App() {
     },
     {
       id: 3,
+      institute_name: "Institute 3",
       slotDate: "12/09/2024",
       bookedDate: "12/09/2024",
       status: "Pending",

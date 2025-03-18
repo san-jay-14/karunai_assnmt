@@ -13,7 +13,7 @@ function DonationCard({ donation }) {
         />
         <div className="absolute bottom-0 left-0 right-0 bg-white bg-opacity-90 p-2">
           <span className="text-gray-800 font-medium text-xl">
-            Institute Name
+            {donation.institute_name}
           </span>
         </div>
       </div>
